@@ -1,0 +1,19 @@
+active-opacity = 0.9
+foreground-opacity = 8
+inactive-opacity = 0.75 
+corner-radius = 10
+
+blur-background = true;
+
+blur: {
+	method = "dual_kawase";
+	blur-size = 9;
+};
+
+
+# GLX backend
+backend = "glx";
+glx-no-stencil = true;
+glx-copy-from-front = false;
+glx-no-rebind-pixmap = true;
+use-damage = true;
